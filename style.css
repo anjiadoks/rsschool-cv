@@ -5,8 +5,34 @@ body {
     font-size: 20px;
 }
 img {
-    width: 230px;
+    width: 250px;
 }
 code {
   white-space: pre;  
+}
+hr {
+    width: 70px;
+    size:10px;
+}
+h1{
+    font-size:38px;
+    align-content: flex-start;
+    }
+h3{
+    font-size:20px;
+}
+.block1 {
+    background-color: rgb(255, 226, 250);
+}
+.block2 {
+    background-color: rgb(249, 242, 224);
+}
+.block3 {
+    background-color: rgb(228, 252, 224);
+}
+.block4 {
+    background-color: rgb(255, 226, 250);
+}
+.block5 {
+    background-color: rgb(228, 252, 224);
 }
