@@ -11,34 +11,101 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
-<body>
-    <img src="https://pp.userapi.com/c631521/v631521077/4af14/Fwvkb9-3nBs.jpg" alt="Here my foto">
-    <h1>Angela Gorelikova</h1>
-    <h3>Briefly About Myself:</h3><hr>
-    <p>After university I got a good job at Bank, but after some events I understand an importance to have
-international skills and be a freelancer. I want to learn new profession, which allow me to work remotely.
-My goal is to get knowledge and skills that helps me to find a job in a company in other countries.
-My strengths are the desire to learn and fast learning. I hope I can complete the course
-and get new skills in Front-end development.</p>
-    <div class="block1"><h3>Skills and Proficiency:</h3><hr>
-    <ul><li> HTML </li>
-        <li> CSS </li></ul></div>
-    <div class="block2"><h3>Code example:</h3><hr>
-    <code>function defineSuit(card) {
-        return {'♣':'clubs',
-                '♦':'diamonds',
-                '♥':'hearts',
-                '♠':'spades'}
-    [card[card.length-1]] }</code></div>
-    <div class="block3"><h3>Courses:</h3><hr>
-    Francisk Skorina Gomel State University</div>
-    <div class="block4"><h3>Languages:</h3><hr>
-    <ul><li>English - Intermediate B1</li>
-        <li>Russian - Native</li></ul></div>
-    <div class="block5"><h3>Contact information:</h3><hr>
-        <ul><li>Phone: +375 29 394-59-41</li>
-        <li>E-mail: angeljoo@mail.com</li>
-        <li>Discord: anjiadoks#5980</li>
-        <li><a href="https://github.com/anjiadoks">GitHub: anjadoks</a></li></ul></div>
+
+<body class="conteiner body-conteiner">
+
+<main class="main">
+
+    <div class="left-side">
+
+        <div class="content">
+
+        <section class="section-logo" id="logo">
+            <img src="./assets/img/foto4.jpg" alt="Here my photo" class="photo">
+        </section>
+
+        <section class="section-contacts" id="contacts">
+            <h2 class="section-title">Contacts:</h2><hr>
+            <ul class="section-list">
+                <li class="section-item"><img src="./assets/svg/loc.png" alt="location"> Address: Gomel, Belarus</li>
+                <li class="section-item"><img src="./assets/svg/tel.png" alt="location"> Phone: +375 29 394-59-41</li>
+                <li class="section-item"><img src="./assets/svg/email.png" alt="location"> E-mail: angeljoo@mail.com</li>
+                <li class="section-item"><img src="./assets/svg/dis.png" alt="location"> Discord: anjiadoks#5980</li>
+                <li class="section-item"><a href="https://github.com/anjiadoks"><img src="./assets/svg/git.png" alt="location"> GitHub: anjadoks</a></li>
+            </ul>
+        </section>
+
+        <section class="section-skills" id="skills">
+            <h2 class="section-title">Skills:</h2><hr>
+            <ul>
+                <li> HTML basic </li>
+                <li> CSS basic </li>
+            </ul>
+        </section>
+
+        </div>
+
+        <footer class = "footer">
+            <ul class = "footer-list">
+                <li class="discord-link">
+                    <a href="https://discord.com" class="footer-item" target="_blank"><img src="./assets/svg/discord.png" alt="Discord"></a>
+                </li>
+                <li class="github-link">
+                    <a href="https://github.com/anjiadoks" class="footer-item" target="_blank"><img src="./assets/svg/github.png" alt="GitHub"></a>
+                </li>
+                <li class="telegram-link">
+                    <a href="https://web.telegram.org/k/" class="footer-item" target="_blank"><img src="./assets/svg/telegram.png" alt="Telegram"></a>
+                </li>
+                <li class="instagram-link">
+                    <a href="https://www.instagram.com/anjiadoks_/" class="footer-item" target="_blank"><img src="./assets/svg/instagram.png" alt="Instagram"></a>
+                </li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <div class="right-side">
+
+        <section class="section-profile" id="profile">
+            <h1>Angela Gorelikova</h1><hr>
+            <h2>Junior Frontend Developer</h2>
+        </section>
+
+        <section class="section-summary" id="summary">
+            <h2 class="section-title">Summary:</h2><hr>
+            <p>After university graduation I got a good job in the Bank, where I have worked for 5 years. But after some events I understood
+    importance of international skills and an opportunity to be a freelancer.
+    I want to learn new profession, which allow me to work remotely. My main goal is to get knowledges and skills which will allow me to find a job
+    in a foreign countries. I keen to learn something new and i also can add that i am a fastlearning person. I suppose that it is my strength.
+    I hope I can complete the course and get new skills in Front-end development.</p>
+        </section>
+
+
+        <section class="section-languages" id="languages">
+            <h2 class="section-title">Languages:</h2><hr>
+            <ul>
+                <li>English - Intermediate B1</li>
+                <li>Russian - Native</li>
+            </ul>
+        </section>
+
+        <section class="section-education" id="education">
+            <h2 class="section-title">Education:</h2><hr>
+            <p>University: Francisk Skorina Gomel State University</p>
+        </section>
+
+        <section class="section-code" id="code">
+            <h2 class="section-title">Code example:</h2><hr>
+            <code>function defineSuit(card) {
+                    return {'♣':'clubs',
+                            '♦':'diamonds',
+                            '♥':'hearts',
+                            '♠':'spades'}
+                [card[card.length-1]] }</code>
+        </section>
+
+    </div>
+</main>
+
 </body>
 </html>
