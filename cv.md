@@ -2,8 +2,7 @@
 
 ## Briefly About Myself:
 After iniversity I got a good job at Bank, but after some events I understand an importance to have
-international skills and be a freelancer. I want to learn new profession, which allow me to work remotely.
-My goal is to get knowledge and skills that helps me to find a job in a company in other countries.
+international skills and be a freelancer. I want to learn new profession, which allow me to work remotely. My goal is to get knowledge and skills that helps me to find a job in a company in other countries.
 My strengths are the desire to learn and fast learning. I hope I can complete the course
 and get new skills in Front-end development.
 
