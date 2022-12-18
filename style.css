@@ -133,6 +133,22 @@ a:hover {
     background-color: #f2f3ec;
 }
 
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav-link {
+    padding: 0 10px 0;
+    line-height: 40px;
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    background-color: #dafea44d;
+}
+
 h1 {
     font-size: 40px;
     margin: 20px 20px 0px;
